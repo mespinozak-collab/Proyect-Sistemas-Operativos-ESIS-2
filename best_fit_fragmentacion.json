@@ -1,0 +1,9 @@
+{
+    "cpu": { "algoritmo": "RR", "quantum": 3 },
+    "procesos": [
+        {"pid": 1, "llegada": 0, "servicio": 10},
+        {"pid": 2, "llegada": 0, "servicio": 10}
+    ],
+    "memoria": { "tam": 100000, "estrategia": "best-fit" },
+    "solicitudes_mem": [ {"pid": 1, "tam": 49000}, {"pid": 2, "tam": 20000} ]
+}

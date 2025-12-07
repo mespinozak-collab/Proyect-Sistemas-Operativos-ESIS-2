@@ -1,0 +1,10 @@
+{
+    "cpu": { "algoritmo": "FCFS", "quantum": 0 },
+    "procesos": [
+        {"pid": 1, "llegada": 0, "servicio": 10},
+        {"pid": 2, "llegada": 1, "servicio": 10},
+        {"pid": 3, "llegada": 2, "servicio": 10}
+    ],
+    "memoria": { "tam": 100000, "estrategia": "first-fit" },
+    "solicitudes_mem": [ {"pid": 2, "tam": 50000} ]
+}
